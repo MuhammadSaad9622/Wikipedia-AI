@@ -10,7 +10,7 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from gtts import gTTS
-from playsound import playsound
+
 import matplotlib.pyplot as plt
 from PIL import Image
 import os
@@ -183,7 +183,6 @@ class AdvancedAI:
         tts = gTTS(text=emotion_text, lang='en')
         filename = f"emotion_{uuid.uuid4()}.mp3"
         tts.save(filename)
-        playsound(filename)
         os.remove(filename)
 
     def visualize_emotion(self, emotion_data):
