@@ -1,23 +1,23 @@
-pip install flask
-pip install flask_login
-pip install flask_wtf
-pip install pyotp
-pip install qrcode
-pip install pillow
-pip install passlib
-pip install requests
-pip install spacy
-pip install nltk
-pip install transformers
-pip install textblob
-pip install torch
-pip install deep_translator
-pip install numpy
-pip install scikit-learn
-pip install gTTS
-pip install git+https://github.com/TaylorSMarks/playsound.git
+pip install flask;
+pip install flask_login;
+pip install flask_wtf;
+pip install pyotp;
+pip install qrcode;
+pip install pillow;
+pip install passlib;
+pip install requests;
+pip install spacy;
+pip install nltk;
+pip install transformers;
+pip install textblob;
+pip install torch;
+pip install deep_translator;
+pip install numpy;
+pip install scikit-learn;
+pip install gTTS;
+pip install git+https://github.com/TaylorSMarks/playsound.git;
 
-pip install matplotlib
+pip install matplotlib;
 
 
 pycryptodome==3.15.0
