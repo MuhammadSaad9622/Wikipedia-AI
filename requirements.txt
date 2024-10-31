@@ -6,7 +6,6 @@
  pillow
  passlib
  requests
- spacy
  nltk
  transformers
  textblob
@@ -16,6 +15,8 @@
  scikit-learn
  gTTS
  flask_sqlalchemy
+ spacy==3.6.1
+ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.1/en_core_web_sm-3.6.1.tar.gz
 
 
  matplotlib
