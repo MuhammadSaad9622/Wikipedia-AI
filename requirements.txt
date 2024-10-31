@@ -15,6 +15,7 @@
  numpy
  scikit-learn
  gTTS
+ flask_sqlalchemy
 
 
  matplotlib
